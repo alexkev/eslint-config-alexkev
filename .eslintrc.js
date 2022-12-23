@@ -213,7 +213,7 @@ module.exports = {
       },
     ],
     'react/jsx-indent-props': [ 'warn', 2 ],
-    'react/jsx-max-props-per-line': [ 'warn' ],
+    'react/jsx-max-props-per-line': [ 'warn', { 'maximum': 3 } ],
     'react/jsx-one-expression-per-line': [
       'warn',
       {
